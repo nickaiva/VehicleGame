@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D99BCEC2-5013-4A35-8771-B414648C1C68}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\BuggyPawn.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\SoundNodeVehicleEngine.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleBlueprintLibrary.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleDustType.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame.init.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameMode.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameState.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameUserSettings.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameViewportClient.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame_Menu.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD_Menu.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleImpactEffect.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuItemWidgetStyle.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuSoundsWidgetStyle.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuWidgetStyle.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMovementComponentBoosted4w.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerCameraManager.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerController.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTrackPoint.gen.cpp" />
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTypes.gen.cpp" />
+    <ClCompile Include="source\vehiclegameloadingscreen\private\VehicleGameLoadingScreen.cpp" />
+    <ClCompile Include="source\vehiclegame\private\effects\VehicleDustType.cpp" />
+    <ClCompile Include="source\vehiclegame\private\effects\VehicleImpactEffect.cpp" />
+    <ClCompile Include="source\vehiclegame\private\pawns\BuggyPawn.cpp" />
+    <ClCompile Include="source\vehiclegame\private\pawns\VehicleMovementComponentBoosted4w.cpp" />
+    <ClCompile Include="source\vehiclegame\private\player\VehiclePlayerCameraManager.cpp" />
+    <ClCompile Include="source\vehiclegame\private\player\VehiclePlayerController.cpp" />
+    <ClCompile Include="source\vehiclegame\private\sound\SoundNodeVehicleEngine.cpp" />
+    <ClCompile Include="source\vehiclegame\private\track\VehicleTrackPoint.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\menu\SVehicleMenuItem.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\menu\SVehicleMenuWidget.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\menu\VehicleGame_Menu.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\menu\VehicleHUD_Menu.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuItemWidgetStyle.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuSoundsWidgetStyle.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuWidgetStyle.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleStyle.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\VehicleHUD.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\widgets\SVehicleControlsSetup.cpp" />
+    <ClCompile Include="source\vehiclegame\private\ui\widgets\SVehicleHUDWidget.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleBlueprintLibrary.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleGameMode.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleGameModule.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleGameState.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleGameUserSettings.cpp" />
+    <ClCompile Include="source\vehiclegame\private\VehicleGameViewportClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intermediate\build\android\ue4\development\vehiclegameloadingscreen\Definitions.VehicleGameLoadingScreen.h" />
+    <ClInclude Include="intermediate\build\android\ue4\development\vehiclegame\PCH.VehicleGame.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\BuggyPawn.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\SoundNodeVehicleEngine.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleBlueprintLibrary.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleDustType.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameClasses.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameMode.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameState.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameUserSettings.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameViewportClient.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame_Menu.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD_Menu.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleImpactEffect.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuItemWidgetStyle.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuSoundsWidgetStyle.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuWidgetStyle.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMovementComponentBoosted4w.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerCameraManager.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerController.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTrackPoint.generated.h" />
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTypes.generated.h" />
+    <ClInclude Include="intermediate\build\android\vehiclegame\development\slate\SharedPCH.Slate.h" />
+    <ClInclude Include="source\vehiclegameloadingscreen\public\VehicleGameLoadingScreen.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\menu\SVehicleMenuItem.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\menu\SVehicleMenuWidget.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\menu\VehicleMenuItem.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuItemWidgetStyle.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuSoundsWidgetStyle.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuWidgetStyle.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleStyle.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\widgets\SVehicleControlsSetup.h" />
+    <ClInclude Include="source\vehiclegame\private\ui\widgets\SVehicleHUDWidget.h" />
+    <ClInclude Include="source\vehiclegame\public\effects\VehicleDustType.h" />
+    <ClInclude Include="source\vehiclegame\public\effects\VehicleImpactEffect.h" />
+    <ClInclude Include="source\vehiclegame\public\pawns\BuggyPawn.h" />
+    <ClInclude Include="source\vehiclegame\public\pawns\VehicleMovementComponentBoosted4w.h" />
+    <ClInclude Include="source\vehiclegame\public\player\VehiclePlayerCameraManager.h" />
+    <ClInclude Include="source\vehiclegame\public\player\VehiclePlayerController.h" />
+    <ClInclude Include="source\vehiclegame\public\sound\SoundNodeVehicleEngine.h" />
+    <ClInclude Include="source\vehiclegame\public\track\VehicleTrackPoint.h" />
+    <ClInclude Include="source\vehiclegame\public\ui\menu\VehicleGame_Menu.h" />
+    <ClInclude Include="source\vehiclegame\public\ui\menu\VehicleHUD_Menu.h" />
+    <ClInclude Include="source\vehiclegame\public\ui\VehicleHUD.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleBlueprintLibrary.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleGame.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleGameMode.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleGameState.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleGameUserSettings.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleGameViewportClient.h" />
+    <ClInclude Include="source\vehiclegame\public\VehicleTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filechanges\last-build.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filehashes\fileHashes.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filehashes\resourceHashesCache.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\classAnalysis.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\jarAnalysis.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\taskHistory.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\taskJars.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\taskhistory\fileSnapshots.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\taskhistory\taskHistory.bin" />
+    <None Include="intermediate\android\apk\gradle\.gradle\buildoutputcleanup\built.bin" />
+    <None Include="intermediate\assetregistrycache\1f683343.bin" />
+    <None Include="intermediate\assetregistrycache\2657c409.bin" />
+    <None Include="intermediate\assetregistrycache\50a675f9.bin" />
+    <None Include="intermediate\assetregistrycache\52ed2538.bin" />
+    <None Include="intermediate\assetregistrycache\6bead350.bin" />
+    <None Include="intermediate\assetregistrycache\866581fd.bin" />
+    <None Include="intermediate\assetregistrycache\8c0e1344.bin" />
+    <None Include="intermediate\assetregistrycache\8e9331e2.bin" />
+    <None Include="intermediate\assetregistrycache\c9e91a3f.bin" />
+    <None Include="intermediate\assetregistrycache\f0d5030c.bin" />
+    <None Include="intermediate\build\android\vehiclegame\ActionHistory.bin" />
+    <None Include="intermediate\build\SourceFileCache.bin" />
+    <None Include="intermediate\CachedAssetRegistry.bin" />
+    <None Include="intermediate\reimportcache\3688439234.bin" />
+    <None Include="saved\editorcooked\alldesktop\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\alldesktop\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\androidclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\androidclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_astcclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_astcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_astc\engine\GlobalShaderCache-GLSL_ES2.bin" />
+    <None Include="saved\editorcooked\android_astc\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_astc\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_atcclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_atcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_atc\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_atc\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_dxtclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_dxtclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_dxt\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_dxt\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1aclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1aclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1a\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1a\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1client\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1client\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc1\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc2client\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc2client\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc2\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_etc2\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_multiclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_multiclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_multi\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_multi\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_pvrtcclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_pvrtcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_pvrtc\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\android_pvrtc\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\html5\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\html5\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\iosclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\iosclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\ios\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\ios\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxnoeditor\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxserver\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\linuxserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\linux\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\linux\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\luminclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\luminclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\lumin\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\lumin\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\macclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\macclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\macnoeditor\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\macnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\macserver\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\macserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\mac\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\mac\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\tvosclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\tvosclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\tvos\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\tvos\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsclient\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsnoeditor\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsserver\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\windowsserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\editorcooked\windows\vehiclegame\AssetRegistry.bin" />
+    <None Include="saved\editorcooked\windows\vehiclegame\metadata\DevelopmentAssetRegistry.bin" />
+    <None Include="saved\stagedbuilds\android_astc\engine\GlobalShaderCache-GLSL_ES2.bin" />
+    <None Include="saved\stagedbuilds\android_astc\vehiclegame\AssetRegistry.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\vehiclegame\resources\windows\VehicleGame.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

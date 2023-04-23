@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\BuggyPawn.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\SoundNodeVehicleEngine.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleBlueprintLibrary.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleDustType.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame.init.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameMode.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameState.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameUserSettings.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameViewportClient.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame_Menu.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD_Menu.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleImpactEffect.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuItemWidgetStyle.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuSoundsWidgetStyle.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuWidgetStyle.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMovementComponentBoosted4w.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerCameraManager.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerController.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTrackPoint.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTypes.gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleBlueprintLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleGameMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleGameModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleGameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleGameUserSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\VehicleGameViewportClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\effects\VehicleDustType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\effects\VehicleImpactEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\pawns\BuggyPawn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\pawns\VehicleMovementComponentBoosted4w.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\player\VehiclePlayerCameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\player\VehiclePlayerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\sound\SoundNodeVehicleEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\track\VehicleTrackPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\VehicleHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\menu\SVehicleMenuItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\menu\SVehicleMenuWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\menu\VehicleGame_Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\menu\VehicleHUD_Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuItemWidgetStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuSoundsWidgetStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleMenuWidgetStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\style\VehicleStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\widgets\SVehicleControlsSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegame\private\ui\widgets\SVehicleHUDWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vehiclegameloadingscreen\private\VehicleGameLoadingScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intermediate\build\android\ue4\development\vehiclegame\PCH.VehicleGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\development\vehiclegameloadingscreen\Definitions.VehicleGameLoadingScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\BuggyPawn.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\SoundNodeVehicleEngine.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleBlueprintLibrary.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleDustType.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameMode.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameState.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameUserSettings.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGameViewportClient.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleGame_Menu.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleHUD_Menu.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleImpactEffect.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuItemWidgetStyle.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuSoundsWidgetStyle.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMenuWidgetStyle.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleMovementComponentBoosted4w.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerCameraManager.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehiclePlayerController.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTrackPoint.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\ue4\inc\vehiclegame\VehicleTypes.generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intermediate\build\android\vehiclegame\development\slate\SharedPCH.Slate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\menu\SVehicleMenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\menu\SVehicleMenuWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\menu\VehicleMenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuItemWidgetStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuSoundsWidgetStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleMenuWidgetStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\style\VehicleStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\widgets\SVehicleControlsSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\private\ui\widgets\SVehicleHUDWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleBlueprintLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleGameMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleGameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleGameUserSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleGameViewportClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\VehicleTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\effects\VehicleDustType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\effects\VehicleImpactEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\pawns\BuggyPawn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\pawns\VehicleMovementComponentBoosted4w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\player\VehiclePlayerCameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\player\VehiclePlayerController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\sound\SoundNodeVehicleEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\track\VehicleTrackPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\ui\VehicleHUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\ui\menu\VehicleGame_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegame\public\ui\menu\VehicleHUD_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vehiclegameloadingscreen\public\VehicleGameLoadingScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="intermediate\CachedAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filechanges\last-build.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filehashes\fileHashes.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\filehashes\resourceHashesCache.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\classAnalysis.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\jarAnalysis.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\taskHistory.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\javacompile\taskJars.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\taskhistory\fileSnapshots.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\4.1\taskhistory\taskHistory.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\android\apk\gradle\.gradle\buildoutputcleanup\built.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\1f683343.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\2657c409.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\50a675f9.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\52ed2538.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\6bead350.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\866581fd.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\8c0e1344.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\8e9331e2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\c9e91a3f.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\assetregistrycache\f0d5030c.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\build\SourceFileCache.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\build\android\vehiclegame\ActionHistory.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="intermediate\reimportcache\3688439234.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\alldesktop\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\alldesktop\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\androidclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\androidclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_astc\engine\GlobalShaderCache-GLSL_ES2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_astc\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_astc\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_astcclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_astcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_atc\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_atc\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_atcclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_atcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_dxt\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_dxt\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_dxtclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_dxtclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1a\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1a\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1aclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1aclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1client\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc1client\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc2\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc2\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc2client\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_etc2client\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_multi\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_multi\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_multiclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_multiclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_pvrtc\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_pvrtc\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_pvrtcclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\android_pvrtcclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\html5\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\html5\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\ios\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\ios\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\iosclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\iosclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linux\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linux\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxnoeditor\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxserver\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\linuxserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\lumin\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\lumin\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\luminclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\luminclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\mac\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\mac\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macnoeditor\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macserver\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\macserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\tvos\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\tvos\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\tvosclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\tvosclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windows\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windows\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsclient\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsclient\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsnoeditor\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsnoeditor\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsserver\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\editorcooked\windowsserver\vehiclegame\metadata\DevelopmentAssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\stagedbuilds\android_astc\engine\GlobalShaderCache-GLSL_ES2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="saved\stagedbuilds\android_astc\vehiclegame\AssetRegistry.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\vehiclegame\resources\windows\VehicleGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
